@@ -1,5 +1,7 @@
 import { gsap } from "gsap";
-import { SplitText } from "gsap/all";
+
+// @ts-ignore
+import SplitText from "gsap/SplitText";
 import { lenis } from "../Navbar";
 gsap.registerPlugin(SplitText);
 export function initialFX() {
